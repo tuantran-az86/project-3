@@ -1,0 +1,43 @@
+@media screen and ( max-width :576px) {
+nav {
+    flex-direction: column;
+}
+
+.first-title{
+    display:none;
+}
+.banner-title{
+    text-align: center;
+}
+.target {
+    display:grid;
+    grid-template-columns: 1fr;
+    background-color: #efefef;
+  }
+  .information{
+    display:grid;
+    grid-template-columns: 1fr;
+    background-color: #efefef;
+  }
+
+#about .container{
+    display:grid;
+ grid-template-columns: 1fr;
+ background-color: #efefef;
+}
+#job-info .container{
+    display:grid;
+ grid-template-columns: 1fr  ;
+}
+.certificate-list{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+.ul{
+padding-left: 0px;
+}
+.list-project{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+}
